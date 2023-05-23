@@ -1,0 +1,52 @@
+live<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Document</title>
+    <style>
+        
+        #maindiv{
+            display: flex;
+            flex-direction: column;
+            grid-template-areas: " home home home  home home home"
+            "gallery gallery gallery Aboutus Aboutus Aboutus  "
+            "Contactus Contactus Contactus workdone workdone workdone";
+            padding:20px;
+            margin: 20px;
+            grid-gap:10px;
+            border-radius: 10px;
+            background-color: crimson;
+        }
+        #maindiv > div{
+            padding:20px;
+            margin: 20px;
+            grid-gap:10px;
+            border-radius: 10px;
+            background-color:blue;
+            text-align: center;
+        }
+        #header{
+            position: var();
+            top:0px;
+            background-image: linear-gradient(red,yellow,black);
+            width:100%
+        }
+    </style>
+</head>
+<body>
+    <div id="header" align="center">
+        <h2>Welcome to my page</h2>
+    </div><br><br>
+    <div id="maindiv">
+        <div id="home">home</div>
+        <div id="gallery">gallery</div>
+        <div id="Aboutus">Aboutus</div>
+        <div id="Contactus">Contactus</div>
+        <div id="workdone">workdone</div>
+    </div>
+
+    <div id="footer" align="center">
+        <h2>Thank you</h2>
+    </div>
+</body>
+</html>

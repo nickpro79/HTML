@@ -1,0 +1,22 @@
+div{
+    background:purple;
+    width:100px;
+    height:100px;
+   
+    border: 10px solid black;
+    border-radius:100px;
+    animation:myanimation;
+    animation-duration:10s;
+    animation-delay:2s;
+    animation-iteration-count:1000;
+    position:relative;
+}
+
+@keyframes myanimation{
+    0%{background:purple;left:0px;top:0px}
+    25%{background:red;left:0px;top:300px}
+    50%{background:yellow;left:300px;top:300px}
+    75%{background:blue;left:300px;top:0px}
+    100%{background:purple;left:0px;top:0px}
+
+}
